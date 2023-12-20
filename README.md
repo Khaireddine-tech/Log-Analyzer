@@ -23,39 +23,14 @@ Filename10 # of total visits
 Total Elapsed Time: X seconds
 ```
 
-### 1.3 Tasks
-#### Task 1: Implement a Custom Hash Table
-- Implement a custom hash table as a C++ class.
-- Store filenames and the corresponding number of visits in the hash table.
-- No restrictions on the choice of the hash function and collision resolution method.
+### Usage
+```
+Compile the project using a C++ compiler.
+Run the program with a server log file as input.
+Review the output for the top 10 pages and performance metrics.
+```
 
-#### Task 2: Use `std::unordered_map`
-- Utilize the `std::unordered_map` data structure to store filenames and their visit counts.
-
-#### Task 3: Efficiency Comparison
-- Implement a program to measure the total time from reading the log file to printing the top 10 most visited pages.
-- Compare the time efficiency between the custom hash table and `std::unordered_map`.
-
-### 1.4 Notes
-- Efficiently find the top 10 most visited pages using heap data structures.
-- Utilize the C++ standard library for needs other than the hash table implementation.
-
-## 2. Submission
-
-### 2.1 Files to Submit
-1. Source code in a zip file.
-2. Report (PDF) containing:
-   a. Program output with total elapsed time screenshots (one for custom hash table, one for `std::unordered_map`).
-   b. Detailed explanation of:
-      - Hash table implementation (data structures, collision resolution method, and hash function).
-      - Top 10 method (data structures and algorithms used).
-
-## 3. Bonuses
-
-Bonus points are awarded for:
-- Good coding styles and object-oriented programming skills.
-- Different collision resolution methods and their comparison.
-- Innovative data structures and algorithms for faster execution.
-- Any other notable features, thoroughly explained.
-
-Clearly document and explain any extra efforts made.
+### Acknowledgments
+```
+Special thanks to OpenAI's GPT-4 and Bard for assistance in certain aspects of the project.
+```
